@@ -1,20 +1,24 @@
 use inquire::Select;
 use std::fs;
 mod experience;
-
+mod contact;
+use contact::show_contact;
+use colored::Colorize;
 use experience::show_experience;
 
 fn main() {
-    println!("Hey there! I'm Karan Pargal, a full stack web3 developer and currently learning new technologies.");
+    println!("");
+    println!("");
+    println!("Hey there! I'm {}, a full stack web3 developer and currently learning new technologies.","Karan Pargal".bold().bright_yellow());
 
-    let options = vec!["About","Experience","Projects","Contact"];
+    let options = vec!["About","Experience","Skills","Contact"];
 
     let choice = Select::new("What would you like to know?", options.clone()).prompt();
 
     match choice {
         Ok(choice) => {
             if choice == options[0] {
-                println!("I'm a full stack web3 developer and currently learning new technologies.");
+                
             }
             else if choice == options[1] {
                 let file_path = "./experience/experience.json".to_owned();
@@ -29,7 +33,7 @@ fn main() {
                 println!("These are my projects:");
             }
             else if choice == options[3] {
-                println!("You can contact me at:");
+                show_contact();
             }
         },
         Err(_) => println!("You did not select a valid option"),

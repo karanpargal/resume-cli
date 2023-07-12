@@ -4,13 +4,43 @@
       "Position": "Backend Developer",
       "Company": "Doge Capital",
       "Location": "Remote",
-      "Description": "Worked on multiple microservices in the backend."
+      "Duration": "Jan 2023 - Present",
+      "Description": [
+        "Aided in locating flaws and fixing already-in-use services which improved efficiency by 30%",
+        "Work on multiple applications such as lending platform and referral system which helped in the increase of customers.",
+        "Worked on handling on-chain transaction verification which helped in securing the platforms."
+      ]
     },
     {
-      "Position": "Backend Developer",
-      "Company": "Doge Capital",
+      "Position": "Full Stack Intern",
+      "Company": "Cohesive by Unacademy",
       "Location": "Remote",
-      "Description": "Worked on multiple microservices in the backend."
+      "Duration": "Jan 2023 - Mar 2023",
+      "Description": [
+        "Developed an automatic post generation and editor for posts using ReactJS and Django.",
+        "Worked on multiple SDK integrations which allowed users to have a seamless experience on the platform.",
+        "Worked on bug fixes and improvements."
+      ]
+    },
+    {
+      "Position": "Backend Intern",
+      "Company": "Cario Growth Services",
+      "Location": "Remote",
+      "Duration": "Aug 2022 - Nov 2022",
+      "Description": [
+        "Developed a chat service using socket.io, node.js, and express and provide end-to-end encrypted communication. It can have 20 users per room or one on one interaction as well.",
+        "Contributed to a developer documentation website for the easier onboarding of future contributors resulting in 50% faster understanding of the app."
+      ]
+    },
+    {
+      "Position": "ML Intern",
+      "Company": "Team Growth Guide",
+      "Location": "Remote",
+      "Duration": "June 2022 - July 2022",
+      "Description": [
+        "Strengthened ML models that analyzed daily data and gave an analysis of the data and predicted future outcomes using ARIMA, GARCH, and Regression algorithms.",
+        "Refined data visualization and provide an easier-to-understand dashboard to users."
+      ]
     }
   ]
 }
